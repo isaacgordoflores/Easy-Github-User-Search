@@ -1,0 +1,98 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #D1D1D1;
+}
+
+/* GitHub */
+.github {
+    background-color: #E8E8E8;
+    padding: 2rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px grey;
+    width: 100%;
+    max-width: 768px;
+    min-width: 320px;
+
+}
+/* Search */
+.search {
+    margin-bottom: 2rem;
+    width: 100%; 
+}
+
+.search input {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+/* User Card */
+.usercard {
+    color: #595959;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.usercard img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    border: 3px solid goldenrod;
+    border-radius: 100%;
+}
+
+.usercard h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.usercard p {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Data Follow's */
+.data {
+    margin-bottom: 1.5rem;
+}
+.data ul  {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-evenly;
+   list-style-type: none; 
+}
+
+/* Repos */
+.repos {
+    text-align: center;
+}
+
+.repos a {
+    text-decoration: none;
+    color:#ffffff;
+    background-color: goldenrod;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    margin: 0.4rem;
+    display: inline-block;
+}
